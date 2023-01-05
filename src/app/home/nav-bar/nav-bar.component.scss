@@ -1,0 +1,67 @@
+a{
+  text-decoration: none;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 5px;
+}
+
+.img-logo {
+  width: 100px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #6964fe9c;
+  font-weight: 600;
+}
+.navbar-item:hover{
+   background-color: #fccd4d9a;
+}
+
+.hero {
+  margin-top: 106px;
+}
+
+.navbar {
+  background-color: #fccd4dab;
+}
+
+.bd-tw-button {
+  background-color: #6964fe9c;
+  color: #fccd4d;
+}
+
+.is-warning {
+  color: #6964fe9c;
+  background-color: #fccd4d;
+}
+
+.hamb-menu {
+  width: 30px;
+  height: 3px;
+  background-color: #fccd4d;
+}
+
+.menu {
+
+  border: 1px solid #dc3545;
+  width: 55px;
+
+
+}
+
+.btn-secondary {
+  background-color: #fccd4d;
+  color: #dc3545;
+  border: none;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hambu-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+<section class="container-lg">
+    <div class="text-center">
+          <h2>Come possimao aitarti</h2>
+    </div>
+    <div class="container-md p-4 d-flex flex-wrap">
+        <div class="card col-xl-3 col-lg-6 my-2" *ngFor="let item of cardData">
+          <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.descrizione}}</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </div>
+</section>
