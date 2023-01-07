@@ -1,0 +1,43 @@
+.text-banner {
+  font-weight: 700;
+}
+
+
+#myVideo {
+  min-width: 100%;
+
+}
+h1{
+  color: white;
+}
+
+.is-link:hover{
+background-color: white;
+color: #6964fe;
+}
+.is-danger:hover{
+  background-color: white;
+  color: #6964fe;
+}
+
+section{
+  background-color: black;
+}
+.width-video {
+  width: 100%;
+}
+
+.jumbo {
+  height: auto;
+  width: 100%;
+  // background: url(../../assets/img/color_jumbo.jpeg);
+  //   background-position: center;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+video {
+    margin-top: 100px;
+  }
+}

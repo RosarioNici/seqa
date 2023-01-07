@@ -1,6 +1,4 @@
-a{
-  text-decoration: none;
-}
+
 
 .logo {
   height: 80px;
@@ -8,14 +6,16 @@ a{
 }
 
 .img-logo {
-  width: 100px;
+  width: 80px;
 
 }
 
+
 a {
   text-decoration: none;
-  color: #6964fe9c;
+  color: #fccd4d;
   font-weight: 600;
+  font-size:medium;
 }
 .navbar-item:hover{
    background-color: #fccd4d9a;
@@ -24,9 +24,19 @@ a {
 .hero {
   margin-top: 106px;
 }
+.social{
+  margin-right: 20px;
+}
+.social-icon {
+  padding-right: 10px;
+  font-size: xx-large;
+  color: #6964fe;
+}
 
 .navbar {
-  background-color: #fccd4dab;
+  background-color: #6964fe9c;
+  max-height: 100px;
+  // margin-top: 98.8px;
 }
 
 .bd-tw-button {

@@ -1,13 +1,52 @@
-.carousel{
-  margin-top: 106px;
+section{
+
+  background-image: url(../../../assets/img/photo-output.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  min-height: 300px;
+  opacity: 1;
 }
 img{
-  height: 641px;
+  max-height: 593px;
+
 }
-.text-b{
+h2{
   color: #fccd4d;
 
 }
+h5{
+color: white;
+}
 .carousel-caption{
   margin-bottom: 150px;
+  color: #fccd4d;
+}
+
+button{
+background-color: white;
+color: #6964fe;
+border-radius: 25px;
+border: none;
+padding: 15px;
+font-size: x-large;
+
+}
+
+.container-fluid{
+  background: rgb(0 0 0 / 25%);
+  height: 100%;
+
+}
+
+@media screen and (max-width: 575px) {
+  section{
+    height: 400px;
+  }
+}
+
+button:hover{
+  background-color: #6964fe;
+    color: #fccd4d;
 }
