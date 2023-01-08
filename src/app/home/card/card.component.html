@@ -17,19 +17,20 @@
     </div>
 </section> -->
 <section class="container-md">
-  <div class="container-md row py-5 jumbo-content-baseline">
+  <div class="container-md row py-5 align-items-stretch">
     <h1>Come possiamo aiutarti</h1>
     <div class="card-serv col-sm-12 col-md-4" *ngFor="let item of cardData">
       <div class="py-2 card-main">
-        <a href="consulenza">
+        <a [href]="item.link">
           <img class="img-fluid my-2 img-serv" [src]="item.img" alt="">
-          <i class="fa-solid fa-pen-nib icon-large icon-large-main"></i>
+          <i [class]="item.icon" class="icon-large icon-large-main"></i>
         </a>
       </div>
       <div class="py-2">
-        <a href="./Servizi/consulenza.html">
+        <a [href]="item.link">
           <h2>{{item.title}}</h2>
           <h6>{{item.subtitle}}</h6>
+          <button class="btn btn-warning">Scopri di più</button>
         </a>
       </div>
       <div>

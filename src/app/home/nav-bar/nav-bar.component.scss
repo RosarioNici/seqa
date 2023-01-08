@@ -69,6 +69,14 @@ a {
   border: none;
 
 }
+.social-icon {
+
+  transition: 1s;
+}
+
+.social-icon:hover {
+  transform: scale(1.4);
+}
 
 @media screen and (min-width: 1024px) {
   .hambu-menu {

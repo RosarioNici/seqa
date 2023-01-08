@@ -19,6 +19,7 @@ import { DettailsComponent } from './home/dettails/dettails.component';
 import { ConsulenzaComponent } from './consulenza/consulenza.component';
 import { UpnavComponent } from './home/upnav/upnav.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { ButtonComponent } from './home/button/button.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CarouselComponent } from './home/carousel/carousel.component';
     ConsulenzaComponent,
     UpnavComponent,
     CarouselComponent,
+    ButtonComponent,
 
   ],
   imports: [

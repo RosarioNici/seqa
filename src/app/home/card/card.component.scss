@@ -59,3 +59,41 @@
 .card-main {
   position: relative;
 }
+
+a{
+  text-decoration: none;
+}
+.card-main:hover .img-serv {
+  opacity: .7;
+}
+
+.card-main:hover .icon-large-main {
+  visibility: hidden;
+}
+
+.img-home {
+  transition: 2s;
+}
+
+.img-home:hover {
+  transform: scale(.8);
+}
+
+
+.icon-large-main {
+
+  position: absolute;
+  left: 45%;
+  top: 46%;
+}
+.icon-large {
+  font-size: xx-large;
+  color: #6964fe;
+}
+.img-serv {
+  opacity: 0;
+  height: 250px;
+}
+a:hover {
+  color: #fdb70a;
+}
