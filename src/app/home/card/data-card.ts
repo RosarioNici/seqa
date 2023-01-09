@@ -39,4 +39,13 @@ export const dataCard = [
     icon: 'fa-solid fa-magnifying-glass',
     link:'#'
   },
+  {
+   title:'Analisi',
+    subtitle:'Analisi di laboratorio su matrici Alimentari',
+    img:'../../../assets/img/audit.jpg',
+    descrizione:'Al fine di garantire il rispetto ai requisiti di igiene, in ottemperanza ai Regolamenti (CE) n. 178/2002 e n. 852/2004, in tutte le fasi della produzione, trasformazione e distribuzione, le aziende operanti nel settore agroalimentare devono mettere in atto delle misure di prevenzione in regime di autocontrollo, tra queste rientrano quelle di campionamento e analisi.',
+    icon: 'fa-sharp fa-solid fa-microscope',
+    link:'#'
+
+  }
 ]

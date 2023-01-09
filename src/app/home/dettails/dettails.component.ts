@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { service } from './dettail-data';
 
 @Component({
   selector: 'app-dettails',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./dettails.component.scss']
 })
 export class DettailsComponent {
+
+services = service
+
 
 }

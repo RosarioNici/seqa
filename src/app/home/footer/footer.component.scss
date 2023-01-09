@@ -1,0 +1,47 @@
+.bg-color-footer {
+  background-color: rgba(105, 100, 254, 0.6117647059);
+
+}
+button, .card{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.logo-footer-ps {
+  width: 125px;
+}
+
+.fa-brands {
+  transition: .6s;
+}
+
+.fa-brands:hover {
+  transform: scale(0.6);
+}
+
+.img-one {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.fa-airbnb {
+  color: #fccd4d;
+
+}
+
+.fa-instagram {
+  color: #dc3545;
+}
+
+a {
+  text-decoration: none;
+}
+
+.red {
+  color: #fccd4d;
+}
+
+.red:hover {
+  color: blue;
+}
