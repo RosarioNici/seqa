@@ -13,10 +13,15 @@ export const links = [
   },
    {
     link:'Certificazioni',
-    router:'cert'
+    router:'certificazioni'
   },
   {
     link:'Avvio Attività',
-    router:'exper'
-  }
+    router:'avvio'
+  },
+  {
+    links:'Analisi',
+    router: 'analisi'
+  },
+
 ]

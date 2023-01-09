@@ -20,6 +20,14 @@ import { ConsulenzaComponent } from './consulenza/consulenza.component';
 import { UpnavComponent } from './home/upnav/upnav.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { ButtonComponent } from './home/button/button.component';
+import { FormazioneComponent } from './formazione/formazione.component';
+import { StartComponent } from './start/start.component';
+import { AuditComponent } from './audit/audit.component';
+import { CertificazioniComponent } from './certificazioni/certificazioni.component';
+import { AnalisiComponent } from './analisi/analisi.component';
+import { AboutComponent } from './about/about.component';
+import { WhereComponent } from './where/where.component';
+import { TermsComponent } from './terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +48,14 @@ import { ButtonComponent } from './home/button/button.component';
     UpnavComponent,
     CarouselComponent,
     ButtonComponent,
+    FormazioneComponent,
+    StartComponent,
+    AuditComponent,
+    CertificazioniComponent,
+    AnalisiComponent,
+    AboutComponent,
+    WhereComponent,
+    TermsComponent,
 
   ],
   imports: [
