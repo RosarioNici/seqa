@@ -29,6 +29,7 @@ import { AboutComponent } from './about/about.component';
 import { WhereComponent } from './where/where.component';
 import { TermsComponent } from './terms/terms.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
