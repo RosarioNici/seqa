@@ -28,6 +28,7 @@ import { AnalisiComponent } from './analisi/analisi.component';
 import { AboutComponent } from './about/about.component';
 import { WhereComponent } from './where/where.component';
 import { TermsComponent } from './terms/terms.component';
+import { StoreComponent } from './formazione/store/store.component';
 
 
 @NgModule({
@@ -57,6 +58,7 @@ import { TermsComponent } from './terms/terms.component';
     AboutComponent,
     WhereComponent,
     TermsComponent,
+    StoreComponent,
 
   ],
   imports: [

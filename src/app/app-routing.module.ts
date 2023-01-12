@@ -11,6 +11,7 @@ import { FormazioneComponent } from "./formazione/formazione.component";
 import { StartComponent } from "./start/start.component";
 import { TermsComponent } from "./terms/terms.component";
 import { WhereComponent } from "./where/where.component";
+import { StoreComponent } from "./formazione/store/store.component";
 
 
 
@@ -50,11 +51,10 @@ const routes: Routes =[
     component: CertificazioniComponent
   }
   ,
-  {
-    path: 'formazione',
-    component: FormazioneComponent
+  {path: 'formazione', component: FormazioneComponent,
   }
   ,
+  {path: 'store', component: StoreComponent},
   {
     path: 'terms',
     component: TermsComponent
