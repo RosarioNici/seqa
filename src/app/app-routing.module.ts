@@ -19,7 +19,7 @@ import { StoreComponent } from "./formazione/store/store.component";
 const routes: Routes =[
 
   {
-    path: '',
+    path: '/',
     component: HomeComponent
   },
   {
