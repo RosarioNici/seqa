@@ -18,57 +18,18 @@ import { StoreComponent } from "./formazione/store/store.component";
 
 const routes: Routes =[
 
-  {
-    path: '',
-    component: HomeComponent
-  },
-  {
-    path: 'recensioni',
-    component: ReviewsComponent
-  },
-  {
-    path: 'consulenza',
-    component: ConsulenzaComponent
-  }
-  ,
-  {
-    path: 'audit',
-    component: AuditComponent
-  }
-  ,
-  {
-    path: 'analisi',
-    component: AnalisiComponent
-  }
-  ,
-  {
-    path: 'about',
-    component: AboutComponent
-  }
-  ,
-  {
-    path: 'certificazioni',
-    component: CertificazioniComponent
-  }
-  ,
-  {path: 'formazione', component: FormazioneComponent,
-  }
-  ,
+  {path: '', component: HomeComponent},
+  {path: 'recensioni', component: ReviewsComponent},
+  {path: 'consulenza', component: ConsulenzaComponent},
+  {path: 'audit', component: AuditComponent},
+  {path: 'analisi', component: AnalisiComponent},
+  {path: 'about', component: AboutComponent },
+  {path: 'certificazioni', component: CertificazioniComponent},
+  {path: 'formazione', component: FormazioneComponent},
   {path: 'store', component: StoreComponent},
-  {
-    path: 'terms',
-    component: TermsComponent
-  }
-  ,
-  {
-    path: 'dove',
-    component: WhereComponent
-  }
-  ,
-  {
-    path: 'avvio',
-    component: StartComponent
-  }
+  {path: 'terms', component: TermsComponent},
+  {path: 'dove', component: WhereComponent},
+  {path: 'avvio', component: StartComponent}
 
 
 ]
