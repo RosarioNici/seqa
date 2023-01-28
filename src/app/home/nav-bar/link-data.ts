@@ -1,7 +1,7 @@
 export const links = [
   {
     link:'Home',
-    router:'home'
+    router:''
   },
   {
     link:'Consulenza',
