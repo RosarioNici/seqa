@@ -1,3 +1,37 @@
 section{
   margin-top: 150px;
+  margin-bottom: 150px;
+}
+.is-child{
+  margin: 1.185rem !important;
+}
+
+.tile{
+  background-color: transparent !important;
+  color: black;
+
+}
+.is-primary,
+.is-warning,
+.is-info,
+.is-danger,
+.is-success{
+//border: 3px solid;
+border-radius: 20px;
+}
+
+
+.is-primary, .is-success{
+//border: #6964fe 3px solid;
+box-shadow: 0px 0px 50px -14px #fccd4d;
+}
+.is-danger, .is-info{
+  box-shadow: 0px 0px 50px -14px #6964fe;
+}
+
+.is-warning{
+  box-shadow: 0px 0px 50px -14px #FF2800;
+}
+.btn-danger{
+  background-color: #FF2800;
 }
