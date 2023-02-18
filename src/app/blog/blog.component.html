@@ -1,0 +1,33 @@
+<app-nav-bar></app-nav-bar>
+
+<section class="card-container-app">
+  <h1 class="text-center m-5 p-4">Scopri di più sul mondo agroalimentare</h1>
+  <div class="container-lg d-flex justify-content-center flex-wrap">
+
+    <div class="card col-4 m-1" *ngFor="let item of dataApp">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img [src]="item.image" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image-logo mx-2">
+              <img src="../../assets/img/Logo.png.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <h3 class="title is-4">{{item.title}}</h3>
+            <a href="" class="subtitle is-6">@{{item.hast}}</a>
+          </div>
+        </div>
+
+        <div class="content">
+          <p>{{item.description}}</p>
+          <div><a [href]="item.link"><button class="button is-warning is-focused m-3">Leggi l'articolo</button></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

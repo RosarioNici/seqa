@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { Component, NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { ConsulenzaComponent } from "./consulenza/consulenza.component";
 import { HomeComponent } from "./home/home.component";
@@ -12,6 +12,8 @@ import { StartComponent } from "./start/start.component";
 import { TermsComponent } from "./terms/terms.component";
 import { WhereComponent } from "./where/where.component";
 import { StoreComponent } from "./formazione/store/store.component";
+import { BlogComponent } from "./blog/blog.component";
+import { IsoComponent } from "./blog/iso/iso.component";
 
 
 
@@ -29,7 +31,9 @@ const routes: Routes =[
   {path: 'store', component: StoreComponent},
   {path: 'terms', component: TermsComponent},
   {path: 'dove', component: WhereComponent},
-  {path: 'avvio', component: StartComponent}
+  {path: 'avvio', component: StartComponent},
+  {path: 'school', component: BlogComponent},
+  {path: 'iso', component: IsoComponent}
 
 
 ]

@@ -20,8 +20,8 @@ export const links = [
     router:'avvio'
   },
   {
-    links:'Analisi',
-    router: 'analisi'
-  },
+    link:'Lo Sapevi..?',
+    router:'school'
+  }
 
 ]

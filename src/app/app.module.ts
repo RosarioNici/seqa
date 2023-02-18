@@ -29,6 +29,9 @@ import { AboutComponent } from './about/about.component';
 import { WhereComponent } from './where/where.component';
 import { TermsComponent } from './terms/terms.component';
 import { StoreComponent } from './formazione/store/store.component';
+import { BlogComponent } from './blog/blog.component';
+import { IsoComponent } from './blog/iso/iso.component';
+import { BackComponent } from './blog/back/back.component';
 
 
 @NgModule({
@@ -59,6 +62,9 @@ import { StoreComponent } from './formazione/store/store.component';
     WhereComponent,
     TermsComponent,
     StoreComponent,
+    BlogComponent,
+    IsoComponent,
+    BackComponent,
 
   ],
   imports: [
