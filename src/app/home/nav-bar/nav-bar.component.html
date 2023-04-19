@@ -1,11 +1,11 @@
-<nav class="navbar is-fixed-top align-items-center" >
+<nav class="navbar is-fixed-top align-items-center justify-content-between" >
   <div class="navbar-brand">
     <a class="logo d-flex align-items-center" href="#">
       <img src="../../../assets/img/IMG_7022.PNG" alt="logo" class="img-logo">
     </a>
   </div>
 
-  <div id="navbarExampleTransparentExample" class="navbar-menu">
+  <div id="navbarExampleTransparentExample" class="navbar-menu justify-content-center">
     <div class="navbar-start">
       <a class="navbar-item" [href]="item.router" *ngFor="let item of linkPages">
         {{item.link}}
@@ -24,14 +24,14 @@
           <a class="navbar-item" href="dove">
             Dove siamo
           </a>
-          <a class="navbar-item" href="https://seqa.info/">
+          <a class="navbar-item" href="https://seqa.info/" target="_blank">
             Consulenza gratuita
           </a>
           <a class="navbar-item" href="terms">
             Termini & Condizioni
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" href="https://seqa.info/">
+          <a class="navbar-item" href="https://linktr.ee/seqa" target="_blank">
             Contattaci
           </a>
           <a class="navbar-item is-active" href="recensioni">
@@ -40,13 +40,14 @@
         </div>
       </div>
     </div>
-    <div class="social">
-      <a href="https://www.facebook.com/seqaofficial" target="_blank"><i class="fa-brands fa-facebook social-icon"></i></a>
-      <a href="https://www.instagram.com/seqa_official/" target="_blank"><i class="fa-brands fa-instagram social-icon"></i></a>
-      <a href=""><i class="fa-brands fa-tiktok social-icon"></i></a>
-      <a href="https://www.linkedin.com/company/seqa-sicurezza-e-qualit%C3%A0-alimentare/" target="_blank"><i
-          class="fa-brands fa-linkedin social-icon"></i></a>
-    </div>
+  </div>
+  <div class="social">
+    <a href="https://www.facebook.com/seqaofficial" target="_blank"><i class="fa-brands fa-facebook social-icon"></i></a>
+    <a href="https://www.instagram.com/seqa_official/" target="_blank"><i
+        class="fa-brands fa-instagram social-icon"></i></a>
+    <a href=""><i class="fa-brands fa-tiktok social-icon"></i></a>
+    <a href="https://www.linkedin.com/company/seqa-sicurezza-e-qualit%C3%A0-alimentare/" target="_blank"><i
+        class="fa-brands fa-linkedin social-icon"></i></a>
   </div>
   <div class="dropstart hambu-menu">
     <button class="btn fw-1" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
@@ -61,7 +62,7 @@
       </li>
       <li>
         <a class="dropdown-item"
-          href="https://linktr.ee/seqa">Contattaci
+          href="https://linktr.ee/seqa" target="_blank">Contattaci
         </a>
       </li>
       <li>
@@ -69,7 +70,7 @@
         </a>
       </li>
       <li>
-        <a class="dropdown-item is-active" href="https://seqa.info/">Prenota è gratis
+        <a class="dropdown-item is-active" href="https://seqa.info/" target="_blank">Prenota è gratis
         </a>
       </li>
     </ul>

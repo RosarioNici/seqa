@@ -1,30 +1,176 @@
 <app-nav-bar></app-nav-bar>
-<div class="progress" style="background-color: white;">
-  <div class="container">
-    <svg width="100" height="100" viewBox="0 0 300 300">
-      <defs>
-        <linearGradient id="gradient-fill" gradientUnits="userSpaceOnUse" x1="0" y1="300" x2="300" y2="0">
-          <stop offset="0%">
-            <animate attributeName="stop-color" values="#00E06B;#CB0255;#00E06B" dur="5s" repeatCount="indefinite" />
-          </stop>
-          <stop offset="100%">
-            <animate attributeName="stop-color" values="#04AFC8;#8904C5;#04AFC8" dur="8s" repeatCount="indefinite" />
-          </stop>
-        </linearGradient>
-        <clipPath id="clip">
-          <rect class="square s1" x="0" y="0" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s2" x="100" y="0" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s3" x="200" y="0" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s4" x="0" y="100" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s5" x="200" y="100" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s6" x="0" y="200" rx="12" ry="12" height="90" width="90"></rect>
-          <rect class="square s7" x="100" y="200" rx="12" ry="12" height="90" width="90"></rect>
-        </clipPath>
-      </defs>
-      <rect class="gradient" clip-path="url('#clip')" height="300" width="300"></rect>
-    </svg>
-    <footer class="footer my-5">
-      <h4>Work in Progress... <span class="emoji monkey" role="img" aria-label="monkey"></span></h4>
-    </footer>
+<section class="banner " ><div class="container-md d-flex text-center justify-content-center align-items-center"><h4 class="p-2" style="font-weight: 600; margin-bottom: 0;">Iscriviti al nostro Webinar</h4> <button class="p-2" class="btn btn-primary fw-bold">QUI</button></div></section>
+<section class="container">
+  <div class="d-flex align-items-center justify-content-center flex-wrap">
+    <div class="col-sm-6 p-2">
+      <img style="width: 180px;" src="../../assets/img/image0 (2).png" alt="">
+      <h4>Segui il Professional Master Online di SEQA Career</h4>
+      <h1>Cambia la tua vita e diventa un esperto in Sicurezza Alimentare</h1>
+      <p>Prossima Classe: ecco la prossima in partenza</p>
+      <div>
+        <h2>01/07</h2>
+        <p>Iscrizioni aperte fino al 20/06</p>
+      </div>
+    </div>
+    <div class="col-sm-6 p-2" style="background-color: #fccd4d;">
+        <h2>Master in Sistemi di sicurezza Alimentare</h2>
+        <ul style="list-style-type: circle;">
+          <li>Parti da zero</li>
+          <li>Supporto one-to-one</li>
+          <li>Garanzia MoneyBack</li>
+        </ul>
+        <ul>
+          <li><h4>Durata</h4> <p>1 mese full-time</p></li>
+          <li>
+            <h4>Impegno</h4>
+            <p>4/8 - ore/giorno</p>
+          </li>
+          <li>
+            <h4>Format</h4>
+            <p>Online in diretta</p>
+          </li>
+        </ul>
+    </div>
   </div>
-</div>
+
+</section>
+
+<section class="container py-3 my-3">
+  <div class="text-center">
+    <h2>Scopri il nostro Master</h2>
+    <div class="d-flex justify-content-center">
+      <div class="card text-center rounded-1" style="max-width: 500px; margin-top: 60px;">
+        <h5 class="card-header">SSA - Sisitemi di Sicurezza Agroalimentare</h5>
+        <div class="card-body">
+          <img src="../../assets/img/image0 (2).png" alt="" class="cipolla">
+          <h5 class="card-title">Lead Auditor/ Auditor sistemi di gestione Qualità</h5>
+          <p class="card-text">Inizia una carriera con la marcia e le qualifiche giuste giusta</p>
+          <ul class="text-start" style="list-style-type: circle;">
+            <li>
+               Corso interamente online</li>
+            <li>
+               110 ore di lezione in diretta</li>
+            <li>
+               Materiale didattico per ogni modulo</li>
+          </ul>
+          <button data-tf-popup="DO18nyAT" data-tf-opacity="100" data-tf-size="100"
+            data-tf-iframe-props="title=Form per prenotazione colloquio" data-tf-transitive-search-params data-tf-medium="snippet"
+            style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#fff;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Iscriviti</button>
+          <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section style="width: 100%; background-color: rgb(105 100 254 / 61%);" class="py-3">
+  <div class="container">
+  <h1>FAQ</h1>
+  <section class="fixed-width zero-auto">
+    <div class="questions flex-column" *ngFor="let item of faqarray ">
+      <hr class="hr-questions">
+      <div class="" [class]="item.classb">
+        <h2 style="color: white;">{{item.answare}}</h2>
+        <!-- <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+          <mat-icon>add</mat-icon>
+        </button> -->
+        <h4 [class]="item.class">{{item.response}}</h4>
+      </div>
+
+
+    </div>
+  </section>
+  </div>
+</section>
+
+
+<section class="container">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="card card-faq col-12" style="width: 100%;">
+      <div class="card-body">
+        <h2 class="card-title">Perchè diventare un Auditor</h2>
+        <h6 class="card-subtitle mb-2 text-muted">semplice saresti un professionista....</h6>
+        <p class="card-text">Diventare un auditor può essere una scelta di carriera interessante per chi è alla ricerca
+          di un lavoro altamente
+          gratificante che offra una grande varietà di opportunità. Gli auditor sono responsabili di esaminare i
+          processi
+          produttivi di un'azienda per assicurare che siano accurati e conformi alle normative. L'auditor può essere un
+          lavoro impegnativo, ma può anche offrire una grande soddisfazione personale e può portare a grandi opportunità
+          di
+          carriera. Gli auditor possono scegliere di specializzarsi in una vasta gamma di aree, come nel settore
+          agro-alimentare.
+          Inoltre, gli auditor possono godere di stabilità occupazionale e possibilità di viaggiare. Sopratutto, come
+          auditore,
+          si ha la possibilità di essere una figura di riferimento nelle organizzazioni, aiutando a migliorare le
+          pratiche
+          contabili e finanziarie
+        </p>
+      </div>
+    </div>
+    <div class="card card-faq col-12 m-3" style="width: 100%;">
+      <div class="card-body">
+        <h2 class="card-title">Cosa fa un Auditor</h2>
+        <h6 class="card-subtitle mb-2 text-muted">In generale......</h6>
+        <p class="card-text">E' un professionista che controlla che un’azienda rispetti regole e procedure interne,
+          occupandosi nel contempo anche di
+          analizzare i rischi e le conseguenze che derivano dalle scelte effettuate; in altre parola garantisce
+          l’efficienza di
+          ogni singola risorsa e di ogni aspetto che riguarda l’azienda per la quale lavora.
+        </p>
+      </div>
+    </div>
+    <div class="card card-faq col-12 m-3" style="width: 100%;">
+      <div class="card-body">
+        <h2 class="card-title">Serve una laurea per fare l'Auditor?</h2>
+        <h6 class="card-subtitle mb-2 text-muted">Il perchè no....</h6>
+        <p class="card-text">L'auditor è una mansione professionale dove non è necessario avere una laurea per trovare
+          lavoro e
+          crescere professionalmente.
+
+          Le lauree in ambiti affini mantengono la loro importanza ed utilità, tuttavia gli standard nel settore Qualità
+          si aggiornano così rapidamente che un corso di studio della durata di 3/5 anni potrebbe non essere in
+          grado di rispondere adeguatamente esigenze di mercato.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-medium is-link" style="margin-top: 100px; background-color: #fccd4d;">
+  <div class="hero-body">
+    <h2 class="title py-4">
+      I nostri docenti
+    </h2>
+    <p class="subtitle">
+      Se riusciamo a insegnarti cos'è l'HACCP e come applicarlo è anche
+      perché lo facciamo con dei veri professionisti del settore. Avere
+      ottimi insegnanti vuol dire lezioni complete, concetti assimilati e
+      tanta voglia di approfondirli.
+      <br>
+      Il nostro partner CHECK FRUIT è un Ente di certificazione che
+      opera sul tutto il territorio nazionale specializzato nel settore
+      Agroalimentare, dispone di insegnati con notevoli background nel
+      settore
+    </p>
+  </div>
+</section>
+<section class="container" style="margin-bottom: 100px;">
+  <div class="card mb-3 text-center" style="max-width: 60%; margin: 0 auto;">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4">
+        <img src="../../assets/img/image0 (2).png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Hai dubbi o domande?</h5>
+          <button class="card-text btn-primary btn my-3"><a style="color: aliceblue; text-decoration: none;"
+              href="https://drive.google.com/file/d/1Ie65V3SjMjjIrgllyJyt9DkECJrkSeAT/view?usp=share_link">Scarica la Brochure</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>

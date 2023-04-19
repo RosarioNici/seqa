@@ -12,11 +12,11 @@ export const links = [
     router:'formazione'
   },
    {
-    link:'Certificazioni',
+    link:'MASTER',
     router:'certificazioni'
   },
   {
-    link:'Avvio Attività',
+    link:'Finanza Agevolata',
     router:'avvio'
   },
   {
