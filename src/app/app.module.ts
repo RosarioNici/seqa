@@ -73,6 +73,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { HaccpComponent } from './blog/haccp/haccp.component';
 
 
 @NgModule({
@@ -106,6 +107,7 @@ import { MatTableModule } from '@angular/material/table';
     BlogComponent,
     IsoComponent,
     BackComponent,
+    HaccpComponent,
 
 
   ],

@@ -8,6 +8,14 @@ export const appart = [
     link:'iso'
 
   },
+  {
+    title: 'La Formazione HACCP',
+    hast: 'seqa_official',
+    image: '../../assets/img/apple-foorm.jpg',
+    description: 'La formazione HACCP è un requisito fondamentale ed obbligatorio per gli operatori del settore agroalimentare seconda la normativa Europea 852/04..',
+    position:'Dott. Califano',
+    link:'haccp'
 
+  },
 
 ]

@@ -68,3 +68,18 @@ svg {
 .block-display-b-9:hover .block-display-8 {
   opacity: 1;
 }
+
+.mon{
+  transition: 0.6s;
+}
+
+.mon:hover{
+  transform: scale(1.4);
+}
+
+@media screen and (min-width: 662px) {
+  .mon{
+
+  width: 70%;
+  }
+}

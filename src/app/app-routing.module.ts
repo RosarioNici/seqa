@@ -14,7 +14,7 @@ import { WhereComponent } from "./where/where.component";
 import { StoreComponent } from "./formazione/store/store.component";
 import { BlogComponent } from "./blog/blog.component";
 import { IsoComponent } from "./blog/iso/iso.component";
-
+import { HaccpComponent } from "./blog/haccp/haccp.component";
 
 
 
@@ -33,7 +33,8 @@ const routes: Routes =[
   {path: 'dove', component: WhereComponent},
   {path: 'avvio', component: StartComponent},
   {path: 'school', component: BlogComponent},
-  {path: 'iso', component: IsoComponent}
+  {path: 'iso', component: IsoComponent},
+  {path: 'haccp', component: HaccpComponent}
 
 
 ]
